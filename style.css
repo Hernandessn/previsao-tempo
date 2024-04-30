@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("https://46781.cdn.simplo7.net/static/46781/sku/quadros-por-tema-paisagens-e-natureza-quadro-retangular-pintura-de-paisagem-litoranea--p-1623964496483.jpg");
+    background-size: cover;
+    height: 100vh; /*ALTURA*/
+    width: 100vw; /*LARGURA*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-maior{
+    background-color: rgb(156, 148, 148);
+    opacity: 1.0;/*TRANSPARENCIA*/
+    width: 95%;/*lARGURA*/
+    max-width: 450px;/*LARGURA*/
+    border-radius:25px ;
+    padding: 20px;
+}
+
+.lupa{
+    height: 30px;
+    width: 30px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+button:hover{
+    background-color:#7c7c7c;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c;
+    color: #fff;
+    width: calc(100%-100px);
+    font-size: 25px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color:#fff;
+}
+.temp{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.umidade{
+    color: #fff;
+}
+.digitacao{
+    background-color: rgb(228, 174, 174);
+}
+
+@media  screen and (max-width:600px)  {
+    .caixa-maior{
+        width: 80%;/*lARGURA*/
+        max-width: 400px;
+    }
+    .lupa{
+        margin: 0;
+        height: 25px;
+        width: 25px;
+        
+    }
+    input{
+       margin: 0;
+       width: 170px;
+       font-size: 22px;
+    }
+}
