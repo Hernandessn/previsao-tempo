@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("https://46781.cdn.simplo7.net/static/46781/sku/quadros-por-tema-paisagens-e-natureza-quadro-retangular-pintura-de-paisagem-litoranea--p-1623964496483.jpg");
+    background-image: url("https://img.freepik.com/fotos-gratis/um-por-do-sol-sobre-uma-praia-com-um-por-do-sol-dourado-ao-fundo_188544-33419.jpg");
     background-size: cover;
     height: 100vh; /*ALTURA*/
     width: 100vw; /*LARGURA*/
@@ -15,7 +15,7 @@ body{
     justify-content: center;
 }
 .caixa-maior{
-    background-color: rgb(156, 148, 148);
+    background-color: rgb(34, 30, 30);
     opacity: 1.0;/*TRANSPARENCIA*/
     width: 95%;/*lARGURA*/
     max-width: 450px;/*LARGURA*/
@@ -46,7 +46,7 @@ input{
     border-radius: 20px;
     padding: 10px;
     background-color: #7c7c7c;
-    color: #fff;
+    color: rgb(255, 255, 255), 185);
     width: calc(100%-100px);
     font-size: 25px;
 }
