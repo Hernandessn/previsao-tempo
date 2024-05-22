@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("https://img.freepik.com/fotos-gratis/um-por-do-sol-sobre-uma-praia-com-um-por-do-sol-dourado-ao-fundo_188544-33419.jpg");
+    background-image: url("https://3.bp.blogspot.com/-Y9noK3hJcFY/U3V2QatIcCI/AAAAAAAAADM/NurbDE4K4NE/s1600/paisagem_de_clima_temperado-other.jpg");
     background-size: cover;
     height: 100vh; /*ALTURA*/
     width: 100vw; /*LARGURA*/
@@ -15,7 +15,7 @@ body{
     justify-content: center;
 }
 .caixa-maior{
-    background-color: rgb(34, 30, 30);
+    background-color: rgb(66, 58, 58);
     opacity: 1.0;/*TRANSPARENCIA*/
     width: 95%;/*lARGURA*/
     max-width: 450px;/*LARGURA*/
@@ -46,7 +46,7 @@ input{
     border-radius: 20px;
     padding: 10px;
     background-color: #7c7c7c;
-    color: rgb(255, 255, 255), 185);
+    color: rgb(255, 255, 255);
     width: calc(100%-100px);
     font-size: 25px;
 }
